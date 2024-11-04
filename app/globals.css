@@ -1,0 +1,18 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.prose ul {
+  list-style-type: square;
+  padding-left: 1.25rem;
+}
+
+.prose ol {
+  list-style-type: decimal;
+  padding-left: 1.25rem;
+}
+
+.prose ul li::marker,
+.prose ol li::marker {
+  color: #3b82f6;
+}
